@@ -34,7 +34,7 @@
         .markdown-body td { border-right: 0px solid #d5dfeb; border-bottom: 0px solid #d5dfeb; padding: 5px; }
         .markdown-body li, .markdown-body li p, .markdown-body dd, .markdown-body dd p { margin-bottom: 0px; }
         #main .download-bar { display: none; }
-        footer div .owner, .creds { display: none; }
+        footer .owner, .creds { display: none !important; }
     </style>
 </head>
 <body>
