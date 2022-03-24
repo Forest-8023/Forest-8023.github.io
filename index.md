@@ -7,7 +7,7 @@
         body { margin: 0; font-family: "Microsoft Yahei","Tahoma",Arial; font-size: 14px; color: #333; background-color: #fff; }
         ul { list-style-type: none; margin: 0; padding: 0; }
         pre { margin: 0; }
-        .head_box { position: relative; background-color: #f3f3f3; box-shadow: 0 2px 4px rgba(0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc; -moz-box-shadow: 0 2px 4px rgba (0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc; -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc; border-top: 1px solid #bdbdbd; border-bottom: 1px solid #bdbdbd; }
+        .head_box { display: none; position: relative; background-color: #f3f3f3; box-shadow: 0 2px 4px rgba(0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc; -moz-box-shadow: 0 2px 4px rgba (0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc; -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.15),inset 0 -1px 0 0 #fcfcfc; border-top: 1px solid #bdbdbd; border-bottom: 1px solid #bdbdbd; }
             .head_box .inner.wrp { width: auto; margin-left: auto; margin-right: auto; }
         .logo { padding-top: 1px; padding-bottom: 1px; font-size: 18px; }
             .logo a { display: block; height: 40px; overflow: hidden; text-decoration: none; }
@@ -27,7 +27,6 @@
             .footer a { color: #3a8dc9; margin: 0 5px; text-decoration: none; }
         td, th { padding-left: 20px; }
         td { width: 160px; }
-        .head_box { display: none; }
 
         .markdown-body table { width: auto; margin-left: 0px; margin-right: 0px !important; }
         .markdown-body tbody { border-top: 0px solid #d5dfeb; border-bottom: 0px solid #d5dfeb; background-color: snow; }
@@ -35,7 +34,7 @@
         .markdown-body ul, .markdown-body ol { padding-left: 0px; }
         .markdown-body td { border-right: 0px solid #d5dfeb; border-bottom: 0px solid #d5dfeb; padding: 5px; }
         .markdown-body li, .markdown-body li p, .markdown-body dd, .markdown-body dd p { margin-bottom: 0px; }
-        
+
         #container { border: 0px solid #2a2a2a; }
         #main .download-bar { display: none; }
         /*footer .owner, .creds { display: none !important; }*/
