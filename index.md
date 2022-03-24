@@ -86,16 +86,7 @@
     </div>
      <script type="text/javascript">
          
-                 debugger;
-        var a = document.getElementsByTagName("footer")[1];
-        var b = a.getElementsByTagName("a");
-        for (var i = 0; i < b.length; i++) {
-            b[i].removeAttribute("href");
-        }
-         
-         
         function openHtml(type, obj) {
-
             var myul = document.getElementById('left');
             var mylis = myul.getElementsByTagName('li');
             for (var index = 0; index < mylis.length; index++) {
