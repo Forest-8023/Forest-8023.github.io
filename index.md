@@ -27,6 +27,7 @@
             .footer a { color: #3a8dc9; margin: 0 5px; text-decoration: none; }
         td, th { padding-left: 20px; }
         td { width: 160px; }
+        .markdown-body table { margin-right: 0px !important; }
     </style>
 </head>
 <body>
