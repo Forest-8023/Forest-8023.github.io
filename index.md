@@ -30,11 +30,12 @@
 
         .markdown-body table { width: auto; margin-left: 0px; margin-right: 0px !important; }
         .markdown-body tbody { border-top: 0px solid #d5dfeb; border-bottom: 0px solid #d5dfeb; background-color: snow; }
-        .markdown-body td:first-child, .markdown-body th:first-child { width: 20%; padding-left: 20px; }
+        .markdown-body td:first-child, .markdown-body th:first-child { width: 25%; padding-left: 20px; }
         .markdown-body ul, .markdown-body ol { padding-left: 0px; }
         .markdown-body td { border-right: 0px solid #d5dfeb; border-bottom: 0px solid #d5dfeb; padding: 5px; }
         .markdown-body li, .markdown-body li p, .markdown-body dd, .markdown-body dd p { margin-bottom: 0px; }
-
+        
+        .wrapper { width: 1038px; margin: 0 auto; }
         #container { border: 0px solid #2a2a2a; }
         #main .download-bar { display: none; }
         /*footer .owner, .creds { display: none !important; }*/
@@ -84,7 +85,6 @@
         <div style="clear: both"></div>
     </div>
      <script type="text/javascript">
-         
         function openHtml(type, obj) {
             var myul = document.getElementById('left');
             var mylis = myul.getElementsByTagName('li');
