@@ -27,7 +27,12 @@
             .footer a { color: #3a8dc9; margin: 0 5px; text-decoration: none; }
         td, th { padding-left: 20px; }
         td { width: 160px; }
+        table { border-collapse: inherit; border-spacing: inherit; }
+            table tr { line-height: 40px }
         .markdown-body table { margin-right: 0px !important; }
+        .markdown-body ul, .markdown-body ol { padding-left: 0px !important; }
+        .markdown-body td:first-child, .markdown-body th:first-child { width: 20% !important; padding-left: 20px !important; }
+        .markdown-body td { border-right: 0px solid #d5dfeb; border-bottom: 0px solid #d5dfeb; padding: 5px; }
     </style>
 </head>
 <body>
