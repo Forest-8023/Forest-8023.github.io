@@ -243,7 +243,7 @@
 
                 showReport += getTrHead();
                 showReport += getTdHtml('https://docs.microsoft.com/zh-cn/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15', 'Microsoft(SSMS)');
-                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('https://www.jetbrains.com/idea/download/other.html', 'IntelliJ IDEA<br/>Other Versions');
                 showReport += getTdHtml('', '&ensp; ');
                 showReport += getTdHtml('', '&ensp; ');
                 showReport += getTdHtml('https://blog.csdn.net/u011714378', 'CSDN(U)');
@@ -288,6 +288,10 @@
                 showReport += getTrTail();
 
                 showReport += getTrHead();
+                showReport += getTdHtml('https://www.cnblogs.com/golden83/', 'Golden博客园');
+                showReport += getTdHtml('https://golden83.gitee.io/', 'Golden主页');
+                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('', '&ensp; ');
                 showReport += getTdHtml('', '&ensp; ');
                 showReport += getTrTail();
             }
@@ -442,6 +446,5 @@
             return "<td><a target=\"_blank\" href=\"" + url + "\" title=\"" + name + "\">" + name + "</a></td>";
         }
     </script>
-
 </body>
 </html>
