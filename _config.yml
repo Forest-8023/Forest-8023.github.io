@@ -1,5 +1,7 @@
 theme: jekyll-theme-time-machine
 title: Forest-8023
 description: 
-layout: page
 permalink: 
+layout: post
+date: YYYY-MM-DD hh:mm:ss -0000
+categories: CATEGORY-1 CATEGORY-2
