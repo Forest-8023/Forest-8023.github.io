@@ -16,7 +16,7 @@
         .body { width: auto; margin-left: auto; margin-right: auto; padding: 1px 0 5px; }
         .main_content { border: 1px solid #bdbdbd; }
         .title { height: 45px; line-height: 45px; padding-left: 10px; background: #F4F5F9; font-size: 16px; }
-        .content { display: -webkit-box; min-height: 420px; padding-bottom: 0px; }
+        .content { display: -webkit-box; min-height: 420px; padding-bottom: 0px; background-color: snow; }
         .left { width: 100px; line-height: 40px; min-height: 200px; border-right: 1px solid #bdbdbd; }
             .left li { padding-left: 10px; cursor: pointer; display: block; }
                 .left li:hover { background: #E7E8EB; }
@@ -27,11 +27,12 @@
             .footer a { color: #3a8dc9; margin: 0 5px; text-decoration: none; }
         td, th { padding-left: 20px; }
         td { width: 160px; }
-        .markdown-body table { margin-right: 0px !important; }
-        .markdown-body tbody { border-top: 0px solid #d5dfeb; border-bottom: 0px solid #d5dfeb; background-color: none; }
-        .markdown-body td:first-child, .markdown-body th:first-child { width: 20% ; padding-left: 20px ; }
-        .markdown-body ul, .markdown-body ol { padding-left: 0px ; }
+        .markdown-body table { width: auto; margin-left: 0px; margin-right: 0px !important; }
+        .markdown-body tbody { border-top: 0px solid #d5dfeb; border-bottom: 0px solid #d5dfeb; background-color: snow; }
+        .markdown-body td:first-child, .markdown-body th:first-child { width: 20%; padding-left: 20px; }
+        .markdown-body ul, .markdown-body ol { padding-left: 0px; }
         .markdown-body td { border-right: 0px solid #d5dfeb; border-bottom: 0px solid #d5dfeb; padding: 5px; }
+        .markdown-body li, .markdown-body li p, .markdown-body dd, .markdown-body dd p { margin-bottom: 0px; }
     </style>
 </head>
 <body>
