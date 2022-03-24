@@ -17,7 +17,7 @@
         .main_content { border: 1px solid #bdbdbd; }
         .title { height: 45px; line-height: 45px; padding-left: 10px; background: #F4F5F9; font-size: 16px; }
         .content { display: -webkit-box; min-height: 420px; padding-bottom: 0px; }
-        .left { width: 200px; line-height: 40px; min-height: 200px; border-right: 1px solid #bdbdbd; }
+        .left { width: 100px; line-height: 40px; min-height: 200px; border-right: 1px solid #bdbdbd; }
             .left li { padding-left: 10px; cursor: pointer; display: block; }
                 .left li:hover { background: #E7E8EB; }
         .right { -webkit-box-flex: 1; padding: 30px; }
