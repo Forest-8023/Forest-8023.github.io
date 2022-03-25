@@ -227,7 +227,7 @@
 
                 showReport += getTrHead();
                 showReport += getTdHtml('https://www.bilibili.com/video/BV1fh411y7R8', '韩顺平Java');
-                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('https://www.imooc.com/learn/1036', 'Spring Boot');
                 showReport += getTdHtml('', '&ensp; ');
                 showReport += getTdHtml('', '&ensp; ');
                 showReport += getTrTail();
