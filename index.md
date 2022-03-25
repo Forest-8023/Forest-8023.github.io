@@ -222,14 +222,14 @@
                 showReport += getTdHtml('http://v.dxsbb.com/ruanjian/coreldraw/186/', 'CorelDRAW');
                 showReport += getTdHtml('', '&ensp; ');
                 showReport += getTdHtml('', '&ensp; ');
-                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('https://www.bilibili.com/', 'B站');
                 showReport += getTrTail();
 
                 showReport += getTrHead();
                 showReport += getTdHtml('https://www.bilibili.com/video/BV1fh411y7R8', '韩顺平Java');
-                showReport += getTdHtml('https://www.imooc.com/learn/1036', 'Spring Boot');
-                showReport += getTdHtml('', '&ensp; ');
-                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('https://www.imooc.com/learn/1036', 'SpringBoot实战');
+                showReport += getTdHtml('https://www.imooc.com/learn/1079', 'SpringBoot实战');
+                showReport += getTdHtml('https://www.imooc.com/', '慕课网');
                 showReport += getTrTail();
 
                 showReport += getTrHead();
