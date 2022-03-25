@@ -38,6 +38,7 @@
         .wrapper { width: 1038px; margin: 0 auto; }
         #container { border: 0px solid #2a2a2a; }
         #main .download-bar { display: none; }
+        footer .owner { display: none !important; }
         /*footer .owner, .creds { display: none !important; }*/
     </style>
 </head>
