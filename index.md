@@ -325,8 +325,8 @@
                 showReport += getTrTail();
 
                 showReport += getTrHead();
-                showReport += getTdHtml('', '&ensp; ');
-                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('https://forest-8023.github.io/', 'Forest主页');
+                showReport += getTdHtml('https://www.cnblogs.com/forest-8023/', 'Forest博客园');
                 showReport += getTdHtml('https://golden83.gitee.io/', 'Golden主页');
                 showReport += getTdHtml('https://www.cnblogs.com/golden83/', 'Golden博客园');
                 showReport += getTrTail();
