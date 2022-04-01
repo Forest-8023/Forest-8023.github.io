@@ -135,7 +135,7 @@
                 showReport += getTdHtml('https://www.chashebao.com/info/chongqing.html', '社保查询(旧)');
                 showReport += getTdHtml('http://ggfwpz.ylbzj.cq.gov.cn/hallEnter/#/personLogin', '社保查询');
                 showReport += getTdHtml('', '&ensp; ');
-                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('http://web.chacuo.net/', '开发者工具');
                 showReport += getTrTail();
 
                 showReport += getTrHead();
