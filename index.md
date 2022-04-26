@@ -231,7 +231,7 @@
                 showReport += getTdHtml('https://www.bilibili.com/video/BV1fh411y7R8', '韩顺平Java');
                 showReport += getTdHtml('https://www.imooc.com/learn/1036', 'SpringBoot实战');
                 showReport += getTdHtml('https://www.imooc.com/learn/1079', 'SpringBoot实战');
-                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('https://www.matools.com/api', '在线API中文手册');
                 showReport += getTrTail();
 
                 showReport += getTrHead();
