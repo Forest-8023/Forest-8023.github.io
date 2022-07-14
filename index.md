@@ -425,7 +425,7 @@
                 showReport += getTdHtml('http://10.173.0.136:81/index.php', '禅道');   /// xuweilin/Abc.1234567890
                 showReport += getTdHtml('https://mars.deloitte.com.cn/mars-work-space/index', '工作台');
                 showReport += getTdHtml('https://appcenterweb.deloitteresources.com/www/index.html#login?isError=true', 'APPCenter');
-
+                showReport += getTdHtml('https://inet.deloitte.com.cn/Pages/default.aspx', 'inet');
                 showReport += getTrTail();
 
                 showReport += getTrHead();
