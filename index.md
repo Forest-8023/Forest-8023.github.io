@@ -286,6 +286,13 @@
                 showReport += getTdHtml('https://ip.ihuan.me/', 'HTTP代理');
                 showReport += getTdHtml('', '&ensp; ');
                 showReport += getTrTail();
+                                                     
+                showReport += getTrHead();
+                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('https://maven.quantr.hk/repo/', 'quantr');
+                showReport += getTdHtml('https://jdk.java.net/', 'JDK Oracle');
+                showReport += getTrTail();
             }
             /// 博客地址
             else if (type == 4) {
@@ -442,6 +449,13 @@
                 showReport += getTdHtml('', '勤聚UAT(未知)');
                 showReport += getTrTail();
 
+                showReport += getTrHead();
+                showReport += getTdHtml('https://welearn2.deloitte.com.cn/', 'WeLearn3正式');
+                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTrTail();                           
+                                                     
                 showReport += getTrHead();
                 showReport += getTdHtml('https://welearn2dev.deloitte.com.cn:9200/user/login', 'WeLearn3:9200');
                 showReport += getTdHtml('https://workflow.deloitte.com.cn/ ', 'workflow正式');
