@@ -60,6 +60,7 @@
             <div class="title">地址分类</div>
             <div class="content">
                 <ul class="left" id="left">
+                    <li id="-1" onclick="openHtml(-1,this)">门户信息</li>
                     <li id="0" onclick="openHtml(0,this)">常用地址</li>
                     <li id="1" onclick="openHtml(1,this)">公司地址</li>
                     <li id="2" onclick="openHtml(2,this)">学习地址</li>
@@ -108,8 +109,13 @@
             }
 
             var showReport = "";
+            /// 门户信息
+            if (type == -1) {
+                showReport += "<p>guangbingxiao</p>"
+                showReport += "<p>BNM2021tgc</p>"
+            }
             /// 常用地址
-            if (type == 0) {
+            else if (type == 0) {
                 showReport += getTrHead();
                 showReport += getTdHtml('https://www.baidu.com/', '百度搜索');
                 showReport += getTdHtml('https://fanyi.baidu.com/translate', '百度翻译');
