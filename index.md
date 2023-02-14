@@ -445,7 +445,7 @@
                 showReport += getTdHtml('https://workflowapidev.deloitte.com.cn:4999', 'WeLearn3:4999');   /// /swagger/ui/index
                 showReport += getTdHtml('http://10.173.0.139:1111/', 'workflow测试');
                 showReport += getTdHtml('http://10.173.0.179:6060/', '勤学测试');   ///  /swagger/ui/index
-                showReport += getTdHtml('https://workflowapidev.deloitte.com.cn:9110/user/login', '勤聚测试');
+                showReport += getTdHtml('http://10.201.224.70:8080/user/login', '勤聚测试');
                 showReport += getTrTail();
 
                 showReport += getTrHead();
