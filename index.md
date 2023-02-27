@@ -111,8 +111,14 @@
             var showReport = "";
             /// 门户信息
             if (type == -1) {
+                showReport += getTrHead();
                 showReport += "<p>guangbingxiao</p>"
                 showReport += "<p>BNM2021tgc</p>"
+                showReport += getTrTail();    
+                showReport += getTrHead();                         
+                showReport += "<p>mengqingfa</p>"
+                showReport += "<p>hgpeYws6R</p>"    
+                showReport += getTrTail();               
             }
             /// 常用地址
             else if (type == 0) {
