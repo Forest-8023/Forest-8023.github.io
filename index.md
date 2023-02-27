@@ -129,28 +129,28 @@
                 showReport += "<td></td>";
                 showReport += "<td></td>";
                 showReport += "<td></td>";
-                showReport += "<td></td>";
+                showReport += "<td>&ensp; </td>";
                 showReport += getTrTail();
 
                 showReport += getTrHead();
                 showReport += "<td></td>";
                 showReport += "<td></td>";
                 showReport += "<td></td>";
-                showReport += "<td></td>";
+                showReport += "<td>&ensp; </td>";
                 showReport += getTrTail();
 
                 showReport += getTrHead();
                 showReport += "<td></td>";
                 showReport += "<td></td>";
                 showReport += "<td></td>";
-                showReport += "<td></td>";
+                showReport += "<td>&ensp; </td>";
                 showReport += getTrTail();
 
                 showReport += getTrHead();
                 showReport += "<td></td>";
                 showReport += "<td></td>";
                 showReport += "<td></td>";
-                showReport += "<td></td>";
+                showReport += "<td>&ensp; </td>";
                 showReport += getTrTail();
             }
             /// 常用地址
