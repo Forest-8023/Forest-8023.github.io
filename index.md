@@ -117,13 +117,41 @@
                 showReport += "<td></td>";
                 showReport += "<td></td>";
                 showReport += getTrTail();
-                                                     
+
                 showReport += getTrHead();
                 showReport += "<td>BNM2021tgc</td>";
                 showReport += "<td>hgpeYws6R</td>";
                 showReport += "<td></td>";
                 showReport += "<td></td>";
-                showReport += getTrTail();          
+                showReport += getTrTail();
+
+                showReport += getTrHead();
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += getTrTail();
+
+                showReport += getTrHead();
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += getTrTail();
+
+                showReport += getTrHead();
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += getTrTail();
+
+                showReport += getTrHead();
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += "<td></td>";
+                showReport += getTrTail();
             }
             /// 常用地址
             else if (type == 0) {
