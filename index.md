@@ -386,16 +386,16 @@
             /// 工作地址
             else if (type == 5) {
                 showReport += getTrHead();
+                showReport += getTdHtml('https://www.zhipin.com/', 'BOSS直聘');
                 showReport += getTdHtml('https://www.51job.com/', '前程无忧');
-                showReport += getTdHtml('https://www.zhaopin.com/', '智联招聘');
-                showReport += getTdHtml('http://zhaopin.baidu.com/jianzhi?', '兼职招聘');
-                showReport += getTdHtml('http://cq.ganji.com/qjzwenjuandiaocha/', '重庆赶集');
+                showReport += getTdHtml('https://cq.58.com/', '58同城');
+                showReport += getTdHtml('', '&ensp; ');
                 showReport += getTrTail();
 
                 showReport += getTrHead();
-                showReport += getTdHtml('', '&ensp; ');
-                showReport += getTdHtml('', '&ensp; ');
-                showReport += getTdHtml('', '&ensp; ');
+                showReport += getTdHtml('https://www.zhaopin.com/', '智联招聘');
+                showReport += getTdHtml('https://cq.ganji.com/', '赶集直招');
+                showReport += getTdHtml('http://zhaopin.baidu.com/', '百度招聘');
                 showReport += getTdHtml('', '&ensp; ');
                 showReport += getTrTail();
 
